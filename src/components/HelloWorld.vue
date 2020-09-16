@@ -2,6 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h3>REST API</h3>
+  </div>
 </template>
 
 <script>
