@@ -2,6 +2,11 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h3>REST API</h3>
+    <ul>
+      <li>Inside </li>
+      <li>Life</li>
+      <li>Mad o</li>
+    </ul>
   </div>
 </template>
 
