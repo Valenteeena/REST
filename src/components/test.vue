@@ -42,9 +42,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
-$primary-color: #28394b;
-$table-color: #f6fafd;
-$font-family: Arial, sans-serif;
+  $primary-color: #28394b;
+  $table-color: #f6fafd;
+  $font-family: Arial, sans-serif;
+
   .table-wrapper{
     margin: auto;
     overflow-x: scroll;
@@ -113,7 +114,23 @@ $font-family: Arial, sans-serif;
       tr:nth-child(odd){
       background-color: $table-color;
       }
+    }
   }
+    @media only screen and(max-width:800px),
+    only screen and (max-device-width: 800px){ 
+     .table-wrapper{
+       margin-left: 0 !important;
+      table{
+        td:first-child{
+            position: unset!important;
+
+          }
+            th:first-child{
+            position: unset!important;
+          }
+      }
+    }
   }
+
 
 </style>
