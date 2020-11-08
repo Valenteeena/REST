@@ -45,7 +45,6 @@ export default {
 $primary-color: #28394b;
 $table-color: #f6fafd;
 $font-family: Arial, sans-serif;
-
   .table-wrapper{
     margin: auto;
     overflow-x: scroll;
@@ -53,6 +52,7 @@ $font-family: Arial, sans-serif;
     padding-bottom: 5px;
     margin-top: 3rem;
     margin-left: 189px;
+    border-top-right-radius: .5rem;
     box-shadow: 0 2px 3px 0 rgba(219,248,227, 0.5), 0 6px 8px 0 rgba(0, 0, 0, 0.19);
 
     #test-table{
@@ -61,7 +61,7 @@ $font-family: Arial, sans-serif;
       border-spacing: 0;
       font: normal 12px $font-family;
       border-radius: .5rem;
-      width:101%;
+      width:100.5%;
       margin: auto;
 
       th{
@@ -85,9 +85,10 @@ $font-family: Arial, sans-serif;
       td:first-child{
         font-weight: bold;
         position: absolute;
-        width:190px;
+        width:185px;
         left: 0;
         top: auto;
+        box-sizing: border-box;
         padding-top: 20px;
         height:3.6rem;
       }
@@ -104,7 +105,7 @@ $font-family: Arial, sans-serif;
         border-top-left-radius: .5rem;
         padding-top: 20px;
         box-sizing: border-box;
-        height:3.6rem
+        height:3.6rem;
       }
       th:last-child{
         border-top-right-radius: .5rem;
